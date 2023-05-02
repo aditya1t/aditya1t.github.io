@@ -1,0 +1,153 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #4285F4;
+}
+
+/* Header */
+header {
+    margin-top: 1rem;
+    background-color: #333;
+    padding: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    color: #fff;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding-top: 1rem;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+/* Main Content */
+main {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+table th,
+table td {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+table th {
+    background-color: #333;
+    color: #fff;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+.step-by-step {
+    padding-left: 1.5rem;
+}
+
+.contact-item {
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    header nav ul {
+        padding-left: 0;
+    }
+
+    header nav ul li {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4285F4;
+    color: #fff;
+}
+
+a.highlight {
+    color: purple;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.contact-information {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #f4f4f4;
+}
+
+header nav ul li a,
+footer a {
+    color: #fff;
+}
+
+.step-by-step {
+    padding-left: 1.5rem;
+    font-size: 1.1rem;
+}
+
